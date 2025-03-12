@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(223, 239, 239);
+
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 15% 15%;
+    width: 60%;
+    height: 100vh;
+    border: 2px solid red;
+    padding: 20px;
+    background-color: white;
+}
+
+.first {
+    
+    display: flex;
+    flex-direction: column;;
+    gap: 20px;
+    height: 100vh;
+    width: 22%;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 70%;
+
+}
+
+#first{
+    background-color: hsl(31, 66%, 93%);
+   /* width:25vh ;*/
+   height: 100%;
+   width: 100%;
+    height: 50vh ;
+    border-radius: 8px;
+}
+
+#second {
+    background-color: hsl(39, 100%, 71%);
+    /*width:25vh ;*/
+    height: 100%;
+    width: 100%;
+    height:50vh ;
+    border-radius: 8px;
+}
+
+.text1{
+    text-align:left;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text2{
+    text-align:left;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post {
+    width: 130px;
+    height: 60px;
+}
+
+.ai{
+    width: 44%;
+    
+    margin-left: 15px;
+    margin-top: -20px;
+
+}
+
+.three {
+    display: flex;
+    gap: 20px;
+    width: 106%;
+}
+
+.three1 {
+     background-color: hsl(256, 67%, 59%);
+     display: block;
+    width:70% ;
+    height:35vh ;
+    border-radius: 8px;
+}
+.sm {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: monospace;
+}
+.t10 {
+    color: rgb(222, 225, 5);
+    font-size: xx-large;
+
+}
+.t11 {
+    font-size: small;
+} 
+.sm img {
+    width: 200px;
+    margin: -15px;
+    margin-bottom: 0px;
+}
+
+
+.m{
+    display: flex;
+    gap: 20px;
+    margin-top: 20%;
+    width: 100%;
+}
+
+.m1 {
+     background-color: beige;
+    width:50vh ;
+    height:30vh ;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.m1 img{
+    width: 200px;
+    margin: 10px 10px ;
+}
+
+.m2 {
+    background-color: hsl(39, 100%, 71%);
+    width:50vh ;
+    height:30vh ;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+
+.m2 img {
+    width: 125px;
+    margin: 5px auto  0 15px;
+}
+
+h3 {
+    margin: 10px;
+    justify-content: left;
+
+}
+
+.three2{
+    background-color: hsl(254, 88%, 90%);
+    height: 71vh;
+    width: 30%;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+.three2 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 10px;
+}
+.three2 img{
+    width: 53vh;
+    height: 40vh;
+    margin: 10px;
+    margin-bottom: 0;
+    
+}
+ .three2 h4 {
+    margin: 10px;
+    font-weight: 100;
+    margin-bottom: 10px;
+ }
